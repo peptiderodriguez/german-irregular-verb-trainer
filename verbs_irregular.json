@@ -1,0 +1,1394 @@
+[
+  {
+    "infinitive": "beginnen",
+    "present3s": "beginnt",
+    "preterite": "begann",
+    "perfect": "hat begonnen",
+    "level": "A1",
+    "english": "to begin; to start"
+  },
+  {
+    "infinitive": "bleiben",
+    "present3s": "bleibt",
+    "preterite": "blieb",
+    "perfect": "ist geblieben",
+    "level": "A1",
+    "english": "to stay; to remain"
+  },
+  {
+    "infinitive": "bringen",
+    "present3s": "bringt",
+    "preterite": "brachte",
+    "perfect": "hat gebracht",
+    "level": "A1",
+    "english": "to bring"
+  },
+  {
+    "infinitive": "denken",
+    "present3s": "denkt",
+    "preterite": "dachte",
+    "perfect": "hat gedacht",
+    "level": "A1",
+    "english": "to think"
+  },
+  {
+    "infinitive": "dürfen",
+    "present3s": "darf",
+    "preterite": "durfte",
+    "perfect": "hat gedurft",
+    "level": "A1",
+    "english": "may; to be allowed to"
+  },
+  {
+    "infinitive": "essen",
+    "present3s": "isst",
+    "preterite": "aß",
+    "perfect": "hat gegessen",
+    "level": "A1",
+    "english": "to eat"
+  },
+  {
+    "infinitive": "fahren",
+    "present3s": "fährt",
+    "preterite": "fuhr",
+    "perfect": "hat/ist gefahren",
+    "level": "A1",
+    "english": "to drive; to go (by vehicle)"
+  },
+  {
+    "infinitive": "fangen",
+    "present3s": "fängt",
+    "preterite": "fing",
+    "perfect": "hat gefangen",
+    "level": "A1",
+    "english": "to catch"
+  },
+  {
+    "infinitive": "finden",
+    "present3s": "findet",
+    "preterite": "fand",
+    "perfect": "hat gefunden",
+    "level": "A1",
+    "english": "to find"
+  },
+  {
+    "infinitive": "fliegen",
+    "present3s": "fliegt",
+    "preterite": "flog",
+    "perfect": "hat/ist geflogen",
+    "level": "A1",
+    "english": "to fly"
+  },
+  {
+    "infinitive": "geben",
+    "present3s": "gibt",
+    "preterite": "gab",
+    "perfect": "hat gegeben",
+    "level": "A1",
+    "english": "to give"
+  },
+  {
+    "infinitive": "gehen",
+    "present3s": "geht",
+    "preterite": "ging",
+    "perfect": "ist gegangen",
+    "level": "A1",
+    "english": "to go; to walk"
+  },
+  {
+    "infinitive": "haben",
+    "present3s": "hat",
+    "preterite": "hatte",
+    "perfect": "hat gehabt",
+    "level": "A1",
+    "english": "to have"
+  },
+  {
+    "infinitive": "heißen",
+    "present3s": "heißt",
+    "preterite": "hieß",
+    "perfect": "hat geheißen",
+    "level": "A1",
+    "english": "to be called; to be named"
+  },
+  {
+    "infinitive": "helfen",
+    "present3s": "hilft",
+    "preterite": "half",
+    "perfect": "hat geholfen",
+    "level": "A1",
+    "english": "to help"
+  },
+  {
+    "infinitive": "kennen",
+    "present3s": "kennt",
+    "preterite": "kannte",
+    "perfect": "hat gekannt",
+    "level": "A1",
+    "english": "to know (be acquainted with)"
+  },
+  {
+    "infinitive": "kommen",
+    "present3s": "kommt",
+    "preterite": "kam",
+    "perfect": "ist gekommen",
+    "level": "A1",
+    "english": "to come"
+  },
+  {
+    "infinitive": "können",
+    "present3s": "kann",
+    "preterite": "konnte",
+    "perfect": "hat gekonnt",
+    "level": "A1",
+    "english": "can; to be able to"
+  },
+  {
+    "infinitive": "lesen",
+    "present3s": "liest",
+    "preterite": "las",
+    "perfect": "hat gelesen",
+    "level": "A1",
+    "english": "to read"
+  },
+  {
+    "infinitive": "mögen",
+    "present3s": "mag",
+    "preterite": "mochte",
+    "perfect": "hat gemocht",
+    "level": "A1",
+    "english": "to like"
+  },
+  {
+    "infinitive": "müssen",
+    "present3s": "muss",
+    "preterite": "musste",
+    "perfect": "hat gemusst",
+    "level": "A1",
+    "english": "must; to have to"
+  },
+  {
+    "infinitive": "nehmen",
+    "present3s": "nimmt",
+    "preterite": "nahm",
+    "perfect": "hat genommen",
+    "level": "A1",
+    "english": "to take"
+  },
+  {
+    "infinitive": "rufen",
+    "present3s": "ruft",
+    "preterite": "rief",
+    "perfect": "hat gerufen",
+    "level": "A1",
+    "english": "to call; to shout"
+  },
+  {
+    "infinitive": "schlafen",
+    "present3s": "schläft",
+    "preterite": "schlief",
+    "perfect": "hat geschlafen",
+    "level": "A1",
+    "english": "to sleep"
+  },
+  {
+    "infinitive": "schreiben",
+    "present3s": "schreibt",
+    "preterite": "schrieb",
+    "perfect": "hat geschrieben",
+    "level": "A1",
+    "english": "to write"
+  },
+  {
+    "infinitive": "schwimmen",
+    "present3s": "schwimmt",
+    "preterite": "schwamm",
+    "perfect": "hat/ist geschwommen",
+    "level": "A1",
+    "english": "to swim"
+  },
+  {
+    "infinitive": "sehen",
+    "present3s": "sieht",
+    "preterite": "sah",
+    "perfect": "hat gesehen",
+    "level": "A1",
+    "english": "to see"
+  },
+  {
+    "infinitive": "sein",
+    "present3s": "ist",
+    "preterite": "war",
+    "perfect": "ist gewesen",
+    "level": "A1",
+    "english": "to be"
+  },
+  {
+    "infinitive": "singen",
+    "present3s": "singt",
+    "preterite": "sang",
+    "perfect": "hat gesungen",
+    "level": "A1",
+    "english": "to sing"
+  },
+  {
+    "infinitive": "sollen",
+    "present3s": "soll",
+    "preterite": "sollte",
+    "perfect": "hat gesollt",
+    "level": "A1",
+    "english": "should; to be supposed to"
+  },
+  {
+    "infinitive": "sprechen",
+    "present3s": "spricht",
+    "preterite": "sprach",
+    "perfect": "hat gesprochen",
+    "level": "A1",
+    "english": "to speak"
+  },
+  {
+    "infinitive": "stehen",
+    "present3s": "steht",
+    "preterite": "stand",
+    "perfect": "hat gestanden",
+    "level": "A1",
+    "english": "to stand"
+  },
+  {
+    "infinitive": "treffen",
+    "present3s": "trifft",
+    "preterite": "traf",
+    "perfect": "hat getroffen",
+    "level": "A1",
+    "english": "to meet; to hit"
+  },
+  {
+    "infinitive": "trinken",
+    "present3s": "trinkt",
+    "preterite": "trank",
+    "perfect": "hat getrunken",
+    "level": "A1",
+    "english": "to drink"
+  },
+  {
+    "infinitive": "tun",
+    "present3s": "tut",
+    "preterite": "tat",
+    "perfect": "hat getan",
+    "level": "A1",
+    "english": "to do"
+  },
+  {
+    "infinitive": "wissen",
+    "present3s": "weiß",
+    "preterite": "wusste",
+    "perfect": "hat gewusst",
+    "level": "A1",
+    "english": "to know (a fact)"
+  },
+  {
+    "infinitive": "wollen",
+    "present3s": "will",
+    "preterite": "wollte",
+    "perfect": "hat gewollt",
+    "level": "A1",
+    "english": "to want"
+  },
+  {
+    "infinitive": "backen",
+    "present3s": "backt",
+    "preterite": "buk*",
+    "perfect": "hat gebacken*",
+    "level": "A2",
+    "english": "to bake"
+  },
+  {
+    "infinitive": "biegen",
+    "present3s": "biegt",
+    "preterite": "bog",
+    "perfect": "hat/ist gebogen",
+    "level": "A2",
+    "english": "to bend; to curve"
+  },
+  {
+    "infinitive": "bieten",
+    "present3s": "bietet",
+    "preterite": "bot",
+    "perfect": "hat geboten",
+    "level": "A2",
+    "english": "to offer"
+  },
+  {
+    "infinitive": "bitten",
+    "present3s": "bittet",
+    "preterite": "bat",
+    "perfect": "hat gebeten",
+    "level": "A2",
+    "english": "to ask; to request; to beg"
+  },
+  {
+    "infinitive": "braten",
+    "present3s": "brät",
+    "preterite": "briet",
+    "perfect": "hat gebraten",
+    "level": "A2",
+    "english": "to fry; to roast"
+  },
+  {
+    "infinitive": "fallen",
+    "present3s": "fällt",
+    "preterite": "fiel",
+    "perfect": "ist gefallen",
+    "level": "A2",
+    "english": "to fall"
+  },
+  {
+    "infinitive": "gefallen",
+    "present3s": "gefällt",
+    "preterite": "gefiel",
+    "perfect": "hat gefallen",
+    "level": "A2",
+    "english": "to please; to appeal to"
+  },
+  {
+    "infinitive": "gewinnen",
+    "present3s": "gewinnt",
+    "preterite": "gewann",
+    "perfect": "hat gewonnen",
+    "level": "A2",
+    "english": "to win; to gain"
+  },
+  {
+    "infinitive": "laden",
+    "present3s": "lädt",
+    "preterite": "lud",
+    "perfect": "hat geladen",
+    "level": "A2",
+    "english": "to load; to invite"
+  },
+  {
+    "infinitive": "laufen",
+    "present3s": "läuft",
+    "preterite": "lief",
+    "perfect": "ist gelaufen",
+    "level": "A2",
+    "english": "to run"
+  },
+  {
+    "infinitive": "liegen",
+    "present3s": "liegt",
+    "preterite": "lag",
+    "perfect": "hat gelegen",
+    "level": "A2",
+    "english": "to lie; to be situated"
+  },
+  {
+    "infinitive": "nennen",
+    "present3s": "nennt",
+    "preterite": "nannte",
+    "perfect": "hat genannt",
+    "level": "A2",
+    "english": "to name; to call"
+  },
+  {
+    "infinitive": "rennen",
+    "present3s": "rennt",
+    "preterite": "rannte",
+    "perfect": "ist gerannt",
+    "level": "A2",
+    "english": "to run; to race"
+  },
+  {
+    "infinitive": "riechen",
+    "present3s": "riecht",
+    "preterite": "roch",
+    "perfect": "hat gerochen",
+    "level": "A2",
+    "english": "to smell"
+  },
+  {
+    "infinitive": "schließen",
+    "present3s": "schließt",
+    "preterite": "schloss",
+    "perfect": "hat geschlossen",
+    "level": "A2",
+    "english": "to close; to shut"
+  },
+  {
+    "infinitive": "sitzen",
+    "present3s": "sitzt",
+    "preterite": "saß",
+    "perfect": "hat gesessen",
+    "level": "A2",
+    "english": "to sit"
+  },
+  {
+    "infinitive": "steigen",
+    "present3s": "steigt",
+    "preterite": "stieg",
+    "perfect": "ist gestiegen",
+    "level": "A2",
+    "english": "to climb; to rise"
+  },
+  {
+    "infinitive": "sterben",
+    "present3s": "stirbt",
+    "preterite": "starb",
+    "perfect": "ist gestorben",
+    "level": "A2",
+    "english": "to die"
+  },
+  {
+    "infinitive": "treiben",
+    "present3s": "treibt",
+    "preterite": "trieb",
+    "perfect": "hat/ist getrieben",
+    "level": "A2",
+    "english": "to drive; to propel; to practice"
+  },
+  {
+    "infinitive": "vergessen",
+    "present3s": "vergisst",
+    "preterite": "vergaß",
+    "perfect": "hat vergessen",
+    "level": "A2",
+    "english": "to forget"
+  },
+  {
+    "infinitive": "verlieren",
+    "present3s": "verliert",
+    "preterite": "verlor",
+    "perfect": "hat verloren",
+    "level": "A2",
+    "english": "to lose"
+  },
+  {
+    "infinitive": "wachsen",
+    "present3s": "wächst",
+    "preterite": "wuchs",
+    "perfect": "ist gewachsen",
+    "level": "A2",
+    "english": "to grow"
+  },
+  {
+    "infinitive": "waschen",
+    "present3s": "wäscht",
+    "preterite": "wusch",
+    "perfect": "hat gewaschen",
+    "level": "A2",
+    "english": "to wash"
+  },
+  {
+    "infinitive": "werden",
+    "present3s": "wird",
+    "preterite": "wurde",
+    "perfect": "ist geworden",
+    "level": "A2",
+    "english": "to become; (future auxiliary) will"
+  },
+  {
+    "infinitive": "werfen",
+    "present3s": "wirft",
+    "preterite": "warf",
+    "perfect": "hat geworfen",
+    "level": "A2",
+    "english": "to throw"
+  },
+  {
+    "infinitive": "ziehen",
+    "present3s": "zieht",
+    "preterite": "zog",
+    "perfect": "hat/ist gezogen",
+    "level": "A2",
+    "english": "to pull; to move (house)"
+  },
+  {
+    "infinitive": "befehlen",
+    "present3s": "befiehlt",
+    "preterite": "befahl",
+    "perfect": "hat befohlen",
+    "level": "B1",
+    "english": "to command; to order"
+  },
+  {
+    "infinitive": "beißen",
+    "present3s": "beißt",
+    "preterite": "biss",
+    "perfect": "hat gebissen",
+    "level": "B1",
+    "english": "to bite"
+  },
+  {
+    "infinitive": "binden",
+    "present3s": "bindet",
+    "preterite": "band",
+    "perfect": "hat gebunden",
+    "level": "B1",
+    "english": "to tie; to bind"
+  },
+  {
+    "infinitive": "brechen",
+    "present3s": "bricht",
+    "preterite": "brach",
+    "perfect": "hat/ist gebrochen",
+    "level": "B1",
+    "english": "to break"
+  },
+  {
+    "infinitive": "brennen",
+    "present3s": "brennt",
+    "preterite": "brannte",
+    "perfect": "hat gebrannt",
+    "level": "B1",
+    "english": "to burn"
+  },
+  {
+    "infinitive": "empfehlen",
+    "present3s": "empfiehlt",
+    "preterite": "empfahl",
+    "perfect": "hat empfohlen",
+    "level": "B1",
+    "english": "to recommend"
+  },
+  {
+    "infinitive": "erschrecken",
+    "present3s": "erschrickt*",
+    "preterite": "erschrak*",
+    "perfect": "ist erschrocken*",
+    "level": "B1",
+    "english": "to frighten; to be startled"
+  },
+  {
+    "infinitive": "fliehen",
+    "present3s": "flieht",
+    "preterite": "floh",
+    "perfect": "ist geflohen",
+    "level": "B1",
+    "english": "to flee; to escape"
+  },
+  {
+    "infinitive": "fließen",
+    "present3s": "fließt",
+    "preterite": "floss",
+    "perfect": "ist geflossen",
+    "level": "B1",
+    "english": "to flow"
+  },
+  {
+    "infinitive": "fressen",
+    "present3s": "frisst",
+    "preterite": "fraß",
+    "perfect": "hat gefressen",
+    "level": "B1",
+    "english": "to eat (animals); to devour"
+  },
+  {
+    "infinitive": "frieren",
+    "present3s": "friert",
+    "preterite": "fror",
+    "perfect": "hat/ist gefroren",
+    "level": "B1",
+    "english": "to freeze; to be cold"
+  },
+  {
+    "infinitive": "gelingen",
+    "present3s": "gelingt",
+    "preterite": "gelang",
+    "perfect": "ist gelungen",
+    "level": "B1",
+    "english": "to succeed"
+  },
+  {
+    "infinitive": "gelten",
+    "present3s": "gilt",
+    "preterite": "galt",
+    "perfect": "hat gegolten",
+    "level": "B1",
+    "english": "to be valid; to count; to apply"
+  },
+  {
+    "infinitive": "genießen",
+    "present3s": "genießt",
+    "preterite": "genoss",
+    "perfect": "hat genossen",
+    "level": "B1",
+    "english": "to enjoy"
+  },
+  {
+    "infinitive": "geschehen",
+    "present3s": "geschieht",
+    "preterite": "geschah",
+    "perfect": "ist geschehen",
+    "level": "B1",
+    "english": "to happen; to occur"
+  },
+  {
+    "infinitive": "gießen",
+    "present3s": "gießt",
+    "preterite": "goss",
+    "perfect": "hat gegossen",
+    "level": "B1",
+    "english": "to pour; to water"
+  },
+  {
+    "infinitive": "gleichen",
+    "present3s": "gleicht",
+    "preterite": "glich",
+    "perfect": "hat geglichen",
+    "level": "B1",
+    "english": "to resemble; to be like"
+  },
+  {
+    "infinitive": "graben",
+    "present3s": "gräbt",
+    "preterite": "grub",
+    "perfect": "hat gegraben",
+    "level": "B1",
+    "english": "to dig"
+  },
+  {
+    "infinitive": "greifen",
+    "present3s": "greift",
+    "preterite": "griff",
+    "perfect": "hat gegriffen",
+    "level": "B1",
+    "english": "to grasp; to grab"
+  },
+  {
+    "infinitive": "halten",
+    "present3s": "hält",
+    "preterite": "hielt",
+    "perfect": "hat gehalten",
+    "level": "B1",
+    "english": "to hold; to stop; to keep"
+  },
+  {
+    "infinitive": "hängen",
+    "present3s": "hängt",
+    "preterite": "hing*",
+    "perfect": "hat gehangen*",
+    "level": "B1",
+    "english": "to hang"
+  },
+  {
+    "infinitive": "heben",
+    "present3s": "hebt",
+    "preterite": "hob",
+    "perfect": "hat gehoben",
+    "level": "B1",
+    "english": "to lift; to raise"
+  },
+  {
+    "infinitive": "klingen",
+    "present3s": "klingt",
+    "preterite": "klang",
+    "perfect": "hat geklungen",
+    "level": "B1",
+    "english": "to sound; to ring"
+  },
+  {
+    "infinitive": "lassen",
+    "present3s": "lässt",
+    "preterite": "ließ",
+    "perfect": "hat gelassen",
+    "level": "B1",
+    "english": "to let; to allow; to have done"
+  },
+  {
+    "infinitive": "leiden",
+    "present3s": "leidet",
+    "preterite": "litt",
+    "perfect": "hat gelitten",
+    "level": "B1",
+    "english": "to suffer"
+  },
+  {
+    "infinitive": "leihen",
+    "present3s": "leiht",
+    "preterite": "lieh",
+    "perfect": "hat geliehen",
+    "level": "B1",
+    "english": "to lend; to borrow"
+  },
+  {
+    "infinitive": "lügen",
+    "present3s": "lügt",
+    "preterite": "log",
+    "perfect": "hat gelogen",
+    "level": "B1",
+    "english": "to lie (not tell the truth)"
+  },
+  {
+    "infinitive": "meiden",
+    "present3s": "meidet",
+    "preterite": "mied",
+    "perfect": "hat gemieden",
+    "level": "B1",
+    "english": "to avoid"
+  },
+  {
+    "infinitive": "messen",
+    "present3s": "misst",
+    "preterite": "maß",
+    "perfect": "hat gemessen",
+    "level": "B1",
+    "english": "to measure"
+  },
+  {
+    "infinitive": "raten",
+    "present3s": "rät",
+    "preterite": "riet",
+    "perfect": "hat geraten",
+    "level": "B1",
+    "english": "to advise; to guess"
+  },
+  {
+    "infinitive": "reiben",
+    "present3s": "reibt",
+    "preterite": "rieb",
+    "perfect": "hat gerieben",
+    "level": "B1",
+    "english": "to rub"
+  },
+  {
+    "infinitive": "reiten",
+    "present3s": "reitet",
+    "preterite": "ritt",
+    "perfect": "hat/ist geritten",
+    "level": "B1",
+    "english": "to ride (a horse)"
+  },
+  {
+    "infinitive": "schaffen",
+    "present3s": "schafft",
+    "preterite": "schuf*",
+    "perfect": "hat geschaffen*",
+    "level": "B1",
+    "english": "to manage; to accomplish; to create"
+  },
+  {
+    "infinitive": "scheiden",
+    "present3s": "scheidet",
+    "preterite": "schied",
+    "perfect": "hat/ist geschieden",
+    "level": "B1",
+    "english": "to separate; to divorce"
+  },
+  {
+    "infinitive": "scheinen",
+    "present3s": "scheint",
+    "preterite": "schien",
+    "perfect": "hat geschienen",
+    "level": "B1",
+    "english": "to shine; to seem"
+  },
+  {
+    "infinitive": "scheißen",
+    "present3s": "scheißt",
+    "preterite": "schiss",
+    "perfect": "hat geschissen",
+    "level": "B1",
+    "english": "to shit"
+  },
+  {
+    "infinitive": "schieben",
+    "present3s": "schiebt",
+    "preterite": "schob",
+    "perfect": "hat geschoben",
+    "level": "B1",
+    "english": "to push; to shove"
+  },
+  {
+    "infinitive": "schießen",
+    "present3s": "schießt",
+    "preterite": "schoss",
+    "perfect": "hat/ist geschossen",
+    "level": "B1",
+    "english": "to shoot"
+  },
+  {
+    "infinitive": "schlagen",
+    "present3s": "schlägt",
+    "preterite": "schlug",
+    "perfect": "hat geschlagen",
+    "level": "B1",
+    "english": "to hit; to beat"
+  },
+  {
+    "infinitive": "schmeißen",
+    "present3s": "schmeißt",
+    "preterite": "schmiss",
+    "perfect": "hat geschmissen",
+    "level": "B1",
+    "english": "to throw; to chuck"
+  },
+  {
+    "infinitive": "schneiden",
+    "present3s": "schneidet",
+    "preterite": "schnitt",
+    "perfect": "hat geschnitten",
+    "level": "B1",
+    "english": "to cut"
+  },
+  {
+    "infinitive": "schreien",
+    "present3s": "schreit",
+    "preterite": "schrie",
+    "perfect": "hat geschrien",
+    "level": "B1",
+    "english": "to scream; to shout"
+  },
+  {
+    "infinitive": "senden",
+    "present3s": "sendet",
+    "preterite": "sandte*",
+    "perfect": "hat gesandt*",
+    "level": "B1",
+    "english": "to send; to broadcast"
+  },
+  {
+    "infinitive": "sinken",
+    "present3s": "sinkt",
+    "preterite": "sank",
+    "perfect": "ist gesunken",
+    "level": "B1",
+    "english": "to sink; to fall"
+  },
+  {
+    "infinitive": "springen",
+    "present3s": "springt",
+    "preterite": "sprang",
+    "perfect": "ist gesprungen",
+    "level": "B1",
+    "english": "to jump; to leap"
+  },
+  {
+    "infinitive": "stehlen",
+    "present3s": "stiehlt",
+    "preterite": "stahl",
+    "perfect": "hat gestohlen",
+    "level": "B1",
+    "english": "to steal"
+  },
+  {
+    "infinitive": "stinken",
+    "present3s": "stinkt",
+    "preterite": "stank",
+    "perfect": "hat gestunken",
+    "level": "B1",
+    "english": "to stink; to smell bad"
+  },
+  {
+    "infinitive": "streiten",
+    "present3s": "streitet",
+    "preterite": "stritt",
+    "perfect": "hat gestritten",
+    "level": "B1",
+    "english": "to argue; to quarrel"
+  },
+  {
+    "infinitive": "tragen",
+    "present3s": "trägt",
+    "preterite": "trug",
+    "perfect": "hat getragen",
+    "level": "B1",
+    "english": "to carry; to wear"
+  },
+  {
+    "infinitive": "treten",
+    "present3s": "tritt",
+    "preterite": "trat",
+    "perfect": "hat/ist getreten",
+    "level": "B1",
+    "english": "to step; to kick"
+  },
+  {
+    "infinitive": "trügen",
+    "present3s": "trügt",
+    "preterite": "trog",
+    "perfect": "hat getrogen",
+    "level": "B1",
+    "english": "to deceive; to be deceptive"
+  },
+  {
+    "infinitive": "verzeihen",
+    "present3s": "verzeiht",
+    "preterite": "verzieh",
+    "perfect": "hat verziehen",
+    "level": "B1",
+    "english": "to forgive; to pardon"
+  },
+  {
+    "infinitive": "weisen",
+    "present3s": "weist",
+    "preterite": "wies",
+    "perfect": "hat gewiesen",
+    "level": "B1",
+    "english": "to point; to show"
+  },
+  {
+    "infinitive": "werben",
+    "present3s": "wirbt",
+    "preterite": "warb",
+    "perfect": "hat geworben",
+    "level": "B1",
+    "english": "to advertise; to recruit"
+  },
+  {
+    "infinitive": "wiegen",
+    "present3s": "wiegt",
+    "preterite": "wog",
+    "perfect": "hat gewogen",
+    "level": "B1",
+    "english": "to weigh"
+  },
+  {
+    "infinitive": "zwingen",
+    "present3s": "zwingt",
+    "preterite": "zwang",
+    "perfect": "hat gezwungen",
+    "level": "B1",
+    "english": "to force; to compel"
+  },
+  {
+    "infinitive": "bergen",
+    "present3s": "birgt",
+    "preterite": "barg",
+    "perfect": "hat geborgen",
+    "level": "B2",
+    "english": "to salvage; to rescue; to hide"
+  },
+  {
+    "infinitive": "blasen",
+    "present3s": "bläst",
+    "preterite": "blies",
+    "perfect": "hat geblasen",
+    "level": "B2",
+    "english": "to blow"
+  },
+  {
+    "infinitive": "gebären",
+    "present3s": "gebärt",
+    "preterite": "gebar",
+    "perfect": "hat geboren",
+    "level": "B2",
+    "english": "to give birth (to)"
+  },
+  {
+    "infinitive": "pfeifen",
+    "present3s": "pfeift",
+    "preterite": "pfiff",
+    "perfect": "hat gepfiffen",
+    "level": "B2",
+    "english": "to whistle"
+  },
+  {
+    "infinitive": "reißen",
+    "present3s": "reißt",
+    "preterite": "riss",
+    "perfect": "hat gerissen",
+    "level": "B2",
+    "english": "to tear; to rip"
+  },
+  {
+    "infinitive": "ringen",
+    "present3s": "ringt",
+    "preterite": "rang",
+    "perfect": "hat gerungen",
+    "level": "B2",
+    "english": "to struggle; to wrestle"
+  },
+  {
+    "infinitive": "saufen",
+    "present3s": "säuft",
+    "preterite": "soff",
+    "perfect": "hat gesoffen",
+    "level": "B2",
+    "english": "to drink heavily; to booze"
+  },
+  {
+    "infinitive": "schmelzen",
+    "present3s": "schmilzt",
+    "preterite": "schmolz",
+    "perfect": "hat/ist geschmolzen",
+    "level": "B2",
+    "english": "to melt"
+  },
+  {
+    "infinitive": "schreiten",
+    "present3s": "schreitet",
+    "preterite": "schritt",
+    "perfect": "ist geschritten",
+    "level": "B2",
+    "english": "to stride; to proceed"
+  },
+  {
+    "infinitive": "schweigen",
+    "present3s": "schweigt",
+    "preterite": "schwieg",
+    "perfect": "hat geschwiegen",
+    "level": "B2",
+    "english": "to be silent; to say nothing"
+  },
+  {
+    "infinitive": "schwellen",
+    "present3s": "schwillt",
+    "preterite": "schwoll",
+    "perfect": "ist geschwollen",
+    "level": "B2",
+    "english": "to swell"
+  },
+  {
+    "infinitive": "schwinden",
+    "present3s": "schwindet",
+    "preterite": "schwand",
+    "perfect": "ist geschwunden",
+    "level": "B2",
+    "english": "to dwindle; to fade"
+  },
+  {
+    "infinitive": "schwören",
+    "present3s": "schwört",
+    "preterite": "schwor",
+    "perfect": "hat geschworen",
+    "level": "B2",
+    "english": "to swear; to vow"
+  },
+  {
+    "infinitive": "spinnen",
+    "present3s": "spinnt",
+    "preterite": "spann",
+    "perfect": "hat gesponnen",
+    "level": "B2",
+    "english": "to spin; to be crazy"
+  },
+  {
+    "infinitive": "stechen",
+    "present3s": "sticht",
+    "preterite": "stach",
+    "perfect": "hat gestochen",
+    "level": "B2",
+    "english": "to sting; to stab"
+  },
+  {
+    "infinitive": "stoßen",
+    "present3s": "stößt",
+    "preterite": "stieß",
+    "perfect": "hat/ist gestoßen",
+    "level": "B2",
+    "english": "to push; to bump; to thrust"
+  },
+  {
+    "infinitive": "streichen",
+    "present3s": "streicht",
+    "preterite": "strich",
+    "perfect": "hat/ist gestrichen",
+    "level": "B2",
+    "english": "to paint; to spread; to cancel; to stroke"
+  },
+  {
+    "infinitive": "verderben",
+    "present3s": "verdirbt",
+    "preterite": "verdarb",
+    "perfect": "hat/ist verdorben",
+    "level": "B2",
+    "english": "to spoil; to ruin"
+  },
+  {
+    "infinitive": "weichen",
+    "present3s": "weicht",
+    "preterite": "wich",
+    "perfect": "ist gewichen",
+    "level": "B2",
+    "english": "to yield; to give way; to retreat"
+  },
+  {
+    "infinitive": "wenden",
+    "present3s": "wendet",
+    "preterite": "wandte*",
+    "perfect": "hat gewandt*",
+    "level": "B2",
+    "english": "to turn"
+  },
+  {
+    "infinitive": "winden",
+    "present3s": "windet",
+    "preterite": "wand",
+    "perfect": "hat gewunden",
+    "level": "B2",
+    "english": "to wind; to twist"
+  },
+  {
+    "infinitive": "bewegen",
+    "present3s": "bewegt",
+    "preterite": "bewog*",
+    "perfect": "hat bewogen*",
+    "level": "C1",
+    "english": "to move; to affect emotionally"
+  },
+  {
+    "infinitive": "dringen",
+    "present3s": "dringt",
+    "preterite": "drang",
+    "perfect": "hat/ist gedrungen",
+    "level": "C1",
+    "english": "to penetrate; to press; to insist"
+  },
+  {
+    "infinitive": "erlöschen",
+    "present3s": "erlischt",
+    "preterite": "erlosch",
+    "perfect": "ist erloschen",
+    "level": "C1",
+    "english": "to go out; to be extinguished"
+  },
+  {
+    "infinitive": "fechten",
+    "present3s": "ficht",
+    "preterite": "focht",
+    "perfect": "hat gefochten",
+    "level": "C1",
+    "english": "to fence; to fight"
+  },
+  {
+    "infinitive": "gedeihen",
+    "present3s": "gedeiht",
+    "preterite": "gedieh",
+    "perfect": "ist gediehen",
+    "level": "C1",
+    "english": "to thrive; to prosper"
+  },
+  {
+    "infinitive": "genesen",
+    "present3s": "genest",
+    "preterite": "genas",
+    "perfect": "ist genesen",
+    "level": "C1",
+    "english": "to recover; to get well"
+  },
+  {
+    "infinitive": "gleiten",
+    "present3s": "gleitet",
+    "preterite": "glitt",
+    "perfect": "ist geglitten",
+    "level": "C1",
+    "english": "to glide; to slide"
+  },
+  {
+    "infinitive": "klimmen",
+    "present3s": "klimmt",
+    "preterite": "klomm*",
+    "perfect": "ist geklommen*",
+    "level": "C1",
+    "english": "to climb"
+  },
+  {
+    "infinitive": "kneifen",
+    "present3s": "kneift",
+    "preterite": "kniff",
+    "perfect": "hat gekniffen",
+    "level": "C1",
+    "english": "to pinch; to chicken out"
+  },
+  {
+    "infinitive": "kriechen",
+    "present3s": "kriecht",
+    "preterite": "kroch",
+    "perfect": "ist gekrochen",
+    "level": "C1",
+    "english": "to crawl; to creep"
+  },
+  {
+    "infinitive": "melken",
+    "present3s": "melkt",
+    "preterite": "molk",
+    "perfect": "hat gemolken",
+    "level": "C1",
+    "english": "to milk"
+  },
+  {
+    "infinitive": "preisen",
+    "present3s": "preist",
+    "preterite": "pries",
+    "perfect": "hat gepriesen",
+    "level": "C1",
+    "english": "to praise"
+  },
+  {
+    "infinitive": "quellen",
+    "present3s": "quillt",
+    "preterite": "quoll",
+    "perfect": "ist gequollen",
+    "level": "C1",
+    "english": "to swell; to spring (from)"
+  },
+  {
+    "infinitive": "rinnen",
+    "present3s": "rinnt",
+    "preterite": "rann",
+    "perfect": "ist geronnen",
+    "level": "C1",
+    "english": "to run; to trickle (liquid)"
+  },
+  {
+    "infinitive": "saugen",
+    "present3s": "saugt",
+    "preterite": "sog*",
+    "perfect": "hat gesogen*",
+    "level": "C1",
+    "english": "to suck; to vacuum"
+  },
+  {
+    "infinitive": "schleichen",
+    "present3s": "schleicht",
+    "preterite": "schlich",
+    "perfect": "ist geschlichen",
+    "level": "C1",
+    "english": "to sneak; to creep"
+  },
+  {
+    "infinitive": "schleifen",
+    "present3s": "schleift",
+    "preterite": "schliff*",
+    "perfect": "hat geschliffen*",
+    "level": "C1",
+    "english": "to grind; to sharpen; to drag"
+  },
+  {
+    "infinitive": "schlingen",
+    "present3s": "schlingt",
+    "preterite": "schlang",
+    "perfect": "hat geschlungen",
+    "level": "C1",
+    "english": "to loop; to devour; to gulp"
+  },
+  {
+    "infinitive": "schwingen",
+    "present3s": "schwingt",
+    "preterite": "schwang",
+    "perfect": "hat/ist geschwungen",
+    "level": "C1",
+    "english": "to swing"
+  },
+  {
+    "infinitive": "sinnen",
+    "present3s": "sinnt",
+    "preterite": "sann",
+    "perfect": "hat gesonnen",
+    "level": "C1",
+    "english": "to reflect; to ponder"
+  },
+  {
+    "infinitive": "sprießen",
+    "present3s": "sprießt",
+    "preterite": "spross",
+    "perfect": "ist gesprossen",
+    "level": "C1",
+    "english": "to sprout; to bud"
+  },
+  {
+    "infinitive": "wringen",
+    "present3s": "wringt",
+    "preterite": "wrang",
+    "perfect": "hat gewrungen",
+    "level": "C1",
+    "english": "to wring"
+  },
+  {
+    "infinitive": "bersten",
+    "present3s": "birst",
+    "preterite": "barst",
+    "perfect": "ist geborsten",
+    "level": "C2",
+    "english": "to burst; to crack"
+  },
+  {
+    "infinitive": "bleichen",
+    "present3s": "bleicht",
+    "preterite": "blich*",
+    "perfect": "ist geblichen*",
+    "level": "C2",
+    "english": "to bleach; to fade"
+  },
+  {
+    "infinitive": "dreschen",
+    "present3s": "drischt",
+    "preterite": "drosch",
+    "perfect": "hat gedroschen",
+    "level": "C2",
+    "english": "to thresh; to thrash"
+  },
+  {
+    "infinitive": "flechten",
+    "present3s": "flicht",
+    "preterite": "flocht",
+    "perfect": "hat geflochten",
+    "level": "C2",
+    "english": "to braid; to plait; to weave"
+  },
+  {
+    "infinitive": "glimmen",
+    "present3s": "glimmt",
+    "preterite": "glomm*",
+    "perfect": "hat geglommen*",
+    "level": "C2",
+    "english": "to smoulder; to glow faintly"
+  },
+  {
+    "infinitive": "hauen",
+    "present3s": "haut",
+    "preterite": "hieb*",
+    "perfect": "hat gehauen*",
+    "level": "C2",
+    "english": "to hit; to hew; to chop"
+  },
+  {
+    "infinitive": "schelten",
+    "present3s": "schilt",
+    "preterite": "schalt",
+    "perfect": "hat gescholten",
+    "level": "C2",
+    "english": "to scold; to rebuke"
+  },
+  {
+    "infinitive": "scheren",
+    "present3s": "schert",
+    "preterite": "schor*",
+    "perfect": "hat geschoren*",
+    "level": "C2",
+    "english": "to shear; to clip; to cut"
+  },
+  {
+    "infinitive": "speien",
+    "present3s": "speit",
+    "preterite": "spie",
+    "perfect": "hat gespien",
+    "level": "C2",
+    "english": "to spit; to spew"
+  },
+  {
+    "infinitive": "stieben",
+    "present3s": "stiebt",
+    "preterite": "stob",
+    "perfect": "hat/ist gestoben",
+    "level": "C2",
+    "english": "to spray; to fly about; to scatter"
+  },
+  {
+    "infinitive": "verdrießen",
+    "present3s": "verdrießt",
+    "preterite": "verdross",
+    "perfect": "hat verdrossen",
+    "level": "C2",
+    "english": "to vex; to annoy"
+  },
+  {
+    "infinitive": "weben",
+    "present3s": "webt",
+    "preterite": "wob*",
+    "perfect": "hat gewoben*",
+    "level": "C2",
+    "english": "to weave"
+  }
+]

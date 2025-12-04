@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>German Irregular Verb Trainer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      line-height: 1.5;
+    }
+    h1 {
+      font-size: 1.7rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+    }
+    .controls {
+      margin-bottom: 1rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    label {
+      font-size: 0.9rem;
+    }
+    select, input[type="text"], button {
+      padding: 0.4rem 0.6rem;
+      font-size: 1rem;
+    }
+    button {
+      cursor: pointer;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .field {
+      margin-bottom: 0.6rem;
+    }
+    .field label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.1rem;
+    }
+    .field div.value {
+      padding-left: 0.1rem;
+    }
+    .feedback {
+      min-height: 1.2rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+    .feedback.ok {
+      color: #1a7f37;
+    }
+    .feedback.err {
+      color: #b42318;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 0.3rem;
+    }
+    .small {
+      font-size: 0.8rem;
+      color: #666;
+    }
+    .help-toggle {
+      margin-bottom: 0.5rem;
+    }
+    .help-box {
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      background: #fafafa;
+      font-size: 0.9rem;
+    }
+    .help-box h2 {
+      font-size: 1.05rem;
+      margin: 0 0 0.4rem 0;
+    }
+    .help-box dl {
+      margin: 0;
+    }
+    .help-box dt {
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+    .help-box dd {
+      margin: 0 0 0.1rem 0;
+    }
+    .btn-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Irregular Verb Trainer (A1–C2)</h1>
+  <p>
+    Practice strong / irregular German verbs. Type the
+    <strong>Präsens 3. Person</strong>, <strong>Präteritum</strong>,
+    <strong>Perfekt</strong>, and the <strong>English meaning</strong>.
+  </p>
+
+  <div class="help-toggle">
+    <button id="toggleHelpBtn">Show tense help</button>
+  </div>
+
+  <div id="helpBox" class="help-box" style="display:none;">
+    <h2>German tenses in this quiz</h2>
+    <dl>
+      <dt>Präsens – present tense</dt>
+      <dd><em>er beginnt</em> – he begins / he is beginning</dd>
+      <dd>
+        Used for things happening now, general facts, habits, and also the near
+        future (with time words): <em>Morgen fährt er nach Berlin.</em> –
+        Tomorrow he is going to Berlin.
+      </dd>
+
+      <dt>Präteritum – simple past</dt>
+      <dd><em>er begann</em> – he began</dd>
+      <dd>
+        Mainly used in written German: stories, books, news. In spoken
+        German, common verbs like <em>war</em>, <em>hatte</em>,
+        <em>konnte</em> are often in Präteritum too.
+      </dd>
+
+      <dt>Perfekt – present perfect / spoken past</dt>
+      <dd><em>er hat begonnen</em> – he has begun / he began</dd>
+      <dd>
+        Form: <strong>haben/sein</strong> + Partizip II
+        (<em>hat begonnen</em>, <em>ist gefahren</em>). This is the most common
+        past tense in everyday spoken German.
+      </dd>
+    </dl>
+    <p class="small">
+      In English:
+      <br />
+      Präsens ≈ simple present / present progressive,
+      Präteritum ≈ simple past,
+      Perfekt ≈ present perfect / "spoken past" (often just simple past in English).
+    </p>
+  </div>
+
+  <div class="controls">
+    <label for="levelSelect">Level:</label>
+    <select id="levelSelect">
+      <option value="ALL">All</option>
+      <option value="A1">A1</option>
+      <option value="A2">A2</option>
+      <option value="B1">B1</option>
+      <option value="B2">B2</option>
+      <option value="C1">C1</option>
+      <option value="C2">C2</option>
+    </select>
+
+    <button id="newVerbBtn">New verb</button>
+  </div>
+
+  <div id="card" class="card" style="display:none;">
+    <div class="field">
+      <label>Infinitive</label>
+      <div id="infinitive" class="value"></div>
+    </div>
+
+    <div class="field">
+      <label for="presInput">Präsens (3. Person Singular)</label>
+      <input id="presInput" type="text" autocomplete="off"
+             placeholder="z.B. beginnt" />
+    </div>
+
+    <div class="field">
+      <label for="pretInput">Präteritum</label>
+      <input id="pretInput" type="text" autocomplete="off"
+             placeholder="z.B. begann" />
+    </div>
+
+    <div class="field">
+      <label for="perfInput">Perfekt</label>
+      <input id="perfInput" type="text" autocomplete="off"
+             placeholder='z.B. "hat begonnen"' />
+    </div>
+
+    <div class="field">
+      <label for="engInput">English meaning</label>
+      <input id="engInput" type="text" autocomplete="off"
+             placeholder='e.g. "to begin; to start"' />
+    </div>
+
+    <div class="btn-row">
+      <button id="checkBtn">Check</button>
+      <button id="showSolutionBtn" type="button">Show solution</button>
+    </div>
+
+    <div id="feedback" class="feedback"></div>
+    <div id="solution" class="meta"></div>
+    <div class="meta" id="extraInfo"></div>
+  </div>
+
+  <p class="small">
+    Data programmatically extracted from a teaching list of strong / irregular verbs
+    (A1–C2) and extended with English meanings for personal learning.
+  </p>
+
+  <script>
+    const levelSelect = document.getElementById("levelSelect");
+    const newVerbBtn = document.getElementById("newVerbBtn");
+    const checkBtn = document.getElementById("checkBtn");
+    const showSolutionBtn = document.getElementById("showSolutionBtn");
+    const card = document.getElementById("card");
+
+    const infinitiveEl = document.getElementById("infinitive");
+    const presInput = document.getElementById("presInput");
+    const pretInput = document.getElementById("pretInput");
+    const perfInput = document.getElementById("perfInput");
+    const engInput = document.getElementById("engInput");
+    const feedbackEl = document.getElementById("feedback");
+    const solutionEl = document.getElementById("solution");
+    const extraInfoEl = document.getElementById("extraInfo");
+
+    const toggleHelpBtn = document.getElementById("toggleHelpBtn");
+    const helpBox = document.getElementById("helpBox");
+
+    let verbs = [];
+    let currentVerb = null;
+
+    function normalize(str) {
+      return str
+        .toLowerCase()
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function normalizeList(str) {
+      // split by ; or / to allow multiple synonyms
+      return str
+        .split(/[;/]/)
+        .map((s) => normalize(s))
+        .filter((s) => s.length > 0);
+    }
+
+    function getEnglishDisplay(verb) {
+      if (!verb.english) {
+        return "(no English stored)";
+      }
+      const englishField = Array.isArray(verb.english)
+        ? verb.english.join("; ")
+        : verb.english;
+      return englishField;
+    }
+
+    function getEnglishList(verb) {
+      const englishField = getEnglishDisplay(verb);
+      if (englishField === "(no English stored)") {
+        return [];
+      }
+      return normalizeList(englishField);
+    }
+
+    function pickRandomVerb() {
+      const level = levelSelect.value;
+      const pool =
+        level === "ALL"
+          ? verbs
+          : verbs.filter((v) => v.level && v.level.toUpperCase() === level);
+
+      if (!pool || pool.length === 0) {
+        alert("No verbs found for this level yet.");
+        return;
+      }
+
+      currentVerb = pool[Math.floor(Math.random() * pool.length)];
+
+      infinitiveEl.textContent = currentVerb.infinitive;
+
+      presInput.value = "";
+      pretInput.value = "";
+      perfInput.value = "";
+      engInput.value = "";
+
+      feedbackEl.textContent = "";
+      feedbackEl.className = "feedback";
+      solutionEl.textContent =
+        'Tip: for multiple forms, you can write "hat/ist gefahren" etc. For English, separate synonyms with ";" if you like.';
+      extraInfoEl.textContent = `Level: ${currentVerb.level}`;
+
+      card.style.display = "block";
+      presInput.focus();
+    }
+
+    function checkAnswer() {
+      if (!currentVerb) return;
+
+      const userPres = normalize(presInput.value);
+      const userPret = normalize(pretInput.value);
+      const userPerf = normalize(perfInput.value);
+      const userEngs = normalizeList(engInput.value);
+
+      const correctPres = normalize(currentVerb.present3s || "");
+      const correctPret = normalize(currentVerb.preterite);
+      const correctPerf = normalize(currentVerb.perfect);
+
+      const presOK = userPres === correctPres;
+      const pretOK = userPret === correctPret;
+      const perfOK = userPerf === correctPerf;
+
+      // English comparison is optional: only if english field exists
+      let engOK = true;
+      const correctEngList = getEnglishList(currentVerb);
+      const englishDisplay = getEnglishDisplay(currentVerb);
+
+      if (correctEngList.length > 0) {
+        engOK =
+          userEngs.length > 0 &&
+          userEngs.some((u) => correctEngList.includes(u));
+      }
+
+      if (presOK && pretOK && perfOK && engOK) {
+        feedbackEl.textContent = "✅ All correct!";
+        feedbackEl.className = "feedback ok";
+        solutionEl.textContent = "";
+      } else {
+        feedbackEl.textContent = "❌ Not quite.";
+        feedbackEl.className = "feedback err";
+
+        solutionEl.textContent =
+          `Correct: Präsens 3. Person = "${currentVerb.present3s}", ` +
+          `Präteritum = "${currentVerb.preterite}", ` +
+          `Perfekt = "${currentVerb.perfect}", ` +
+          `English = "${englishDisplay}"`;
+      }
+    }
+
+    function showSolution() {
+      if (!currentVerb) return;
+
+      // Fill in all fields for the user
+      presInput.value = currentVerb.present3s || "";
+      pretInput.value = currentVerb.preterite || "";
+      perfInput.value = currentVerb.perfect || "";
+      const englishDisplay = getEnglishDisplay(currentVerb);
+      engInput.value = englishDisplay === "(no English stored)" ? "" : englishDisplay;
+
+      feedbackEl.textContent = "ℹ️ Solution shown.";
+      feedbackEl.className = "feedback";
+      solutionEl.textContent =
+        `Präsens 3. Person = "${currentVerb.present3s}", ` +
+        `Präteritum = "${currentVerb.preterite}", ` +
+        `Perfekt = "${currentVerb.perfect}", ` +
+        `English = "${englishDisplay}"`;
+    }
+
+    function toggleHelp() {
+      const isHidden = helpBox.style.display === "none" || helpBox.style.display === "";
+      helpBox.style.display = isHidden ? "block" : "none";
+      toggleHelpBtn.textContent = isHidden ? "Hide tense help" : "Show tense help";
+    }
+
+    // Load verbs JSON
+    fetch("verbs_irregular.json")
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("HTTP " + res.status);
+        }
+        return res.json();
+      })
+      .then((data) => {
+        verbs = data;
+        pickRandomVerb();
+      })
+      .catch((err) => {
+        console.error("Error loading verbs_irregular.json:", err);
+        alert("Could not load verbs_irregular.json");
+      });
+
+    newVerbBtn.addEventListener("click", pickRandomVerb);
+    checkBtn.addEventListener("click", checkAnswer);
+    showSolutionBtn.addEventListener("click", showSolution);
+    toggleHelpBtn.addEventListener("click", toggleHelp);
+
+    [presInput, pretInput, perfInput, engInput].forEach((input) => {
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          checkAnswer();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
